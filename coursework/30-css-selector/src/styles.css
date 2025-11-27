@@ -1,0 +1,23 @@
+#intro {
+    color: red
+}
+
+body{
+    font-family: Arial, sans-serif;
+    
+}
+
+.highlight{
+background-color: yellow;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.text.highlight {
+    color:magenta;
+}
