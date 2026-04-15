@@ -1,0 +1,85 @@
+/* Container für App */
+#app-container {
+  display: flex;
+  justify-content: center; /* alles zentriert */
+  gap: 10px;
+  margin-top: 50px;
+}
+
+/* Tool-Widget */
+#tool-container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+
+#tool-container button {
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: 1.5px solid lightgray;
+  transition: background-color 0.2s;
+}
+
+#tool-container button:hover {
+  background-color: lightgray;
+}
+
+#tool-container button.selected {
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+
+/* Zeichenbereich */
+#drawing-canvas {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+/* Shapes */
+circle {
+  fill: purple;
+  stroke: black;
+  stroke-width: 2;
+}
+rect {
+  fill: blue;
+  stroke: black;
+  stroke-width: 2;
+}
+
+polygon {
+  fill: green;
+  stroke: black;
+  stroke-width: 2;
+}
+
+
+line {
+  stroke: red;
+  stroke-width: 3;
+}
+
+/* Temporärer Modus beim Ziehen */
+.temp {
+  opacity: 0.5;
+  stroke: red;
+  fill: red;
+}
+
+/* Widget Boxen */
+.widget {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px gray;
+  background-color: whitesmoke;
+}
+
+/* Body */
+body {
+  background-color: rgb(251, 245, 238);
+  font-family: sans-serif;
+}

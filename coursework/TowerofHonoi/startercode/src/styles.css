@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;          
+  padding: 0;
+  background: #2f3e6e;
+  overflow: hidden;   
+}
+
+#svg {
+  background: #2f3e6e;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  max-height: 80vh;
+}
+
+#reset {
+  background: red;
+  color: #f0f0f0;
+  stroke: teal;
+  width: 80px;
+  height: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+
+#buttonNums {
+  position: relative;
+  width: 100%;                        
+  max-width: 1200px;
+  height: 42px;                       
+  margin: 10px auto 0;
+}
+
+
+.tower-button {
+  position: absolute;
+  width: 40px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+#button1 { left: 23.5%; transform: translateX(-50%); }
+#button2 { left: 50%; transform: translateX(-50%); }
+#button3 { left: 76.1%; transform: translateX(-50%); }
+
